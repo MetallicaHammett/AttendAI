@@ -1,0 +1,3 @@
+student_id,name,class_name,department,person_type,is_active
+21CSE001,Example Student,CSE-A,Computer Science,student,true
+STAFF-001,Example Staff Member,,Computer Science,staff,true

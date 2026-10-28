@@ -1,0 +1,25 @@
+{
+  "short_name": "AttendAI",
+  "name": "AttendAI - SRM Institute of Science and Technology",
+  "icons": [
+    {
+      "src": "srm-favicon.ico",
+      "sizes": "64x64 48x48 32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "srm-logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "srm-logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#337ab7",
+  "background_color": "#ffffff"
+}

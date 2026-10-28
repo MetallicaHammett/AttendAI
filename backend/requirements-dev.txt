@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Tests (run from backend/: python -m pytest tests app/services_test.py app/test_recognition_logic.py)
+pytest>=8
+httpx>=0.24

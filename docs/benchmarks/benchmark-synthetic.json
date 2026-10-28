@@ -1,0 +1,100 @@
+{
+  "generated": "2026-10-20 10:14:51",
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+    "logical_cpus": 16,
+    "python": "3.12.9",
+    "total_ram_gb": 16.3,
+    "cuda_available": false
+  },
+  "input": "synthetic frames (no people/faces: detection cost only, no recognition load)",
+  "frame_size": [
+    640,
+    480
+  ],
+  "matching": [
+    {
+      "identities": 40,
+      "encodings": 120,
+      "per_face_ms": {
+        "n": 200,
+        "mean": 0.06,
+        "p50": 0.06,
+        "p95": 0.08,
+        "max": 0.64
+      }
+    },
+    {
+      "identities": 60,
+      "encodings": 180,
+      "per_face_ms": {
+        "n": 200,
+        "mean": 0.09,
+        "p50": 0.08,
+        "p95": 0.15,
+        "max": 0.24
+      }
+    },
+    {
+      "identities": 500,
+      "encodings": 1500,
+      "per_face_ms": {
+        "n": 200,
+        "mean": 1.66,
+        "p50": 1.55,
+        "p95": 2.28,
+        "max": 3.99
+      }
+    },
+    {
+      "identities": 2000,
+      "encodings": 6000,
+      "per_face_ms": {
+        "n": 200,
+        "mean": 7.79,
+        "p50": 7.65,
+        "p95": 8.98,
+        "max": 12.01
+      }
+    }
+  ],
+  "pipeline": [
+    {
+      "cameras": 1,
+      "frames_processed": 290,
+      "duration_s": 15.0,
+      "throughput_fps_total": 19.31,
+      "throughput_fps_per_camera": 19.31,
+      "latency_ms": {
+        "n": 290,
+        "mean": 41.21,
+        "p50": 41.23,
+        "p95": 48.06,
+        "max": 58.12
+      },
+      "pipeline_errors": null,
+      "exceptions": 0,
+      "cpu_percent_process": 786.7,
+      "rss_mb": 448.7
+    },
+    {
+      "cameras": 2,
+      "frames_processed": 456,
+      "duration_s": 15.0,
+      "throughput_fps_total": 30.34,
+      "throughput_fps_per_camera": 15.17,
+      "latency_ms": {
+        "n": 456,
+        "mean": 60.29,
+        "p50": 58.65,
+        "p95": 69.97,
+        "max": 141.74
+      },
+      "pipeline_errors": null,
+      "exceptions": 0,
+      "cpu_percent_process": 1436.6,
+      "rss_mb": 535.6
+    }
+  ]
+}
